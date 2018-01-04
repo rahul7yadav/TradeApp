@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "url": "",
+    "database": "TradeDB",
+    "password": "FR!@#000",
+    "name": "mysqlDs",
+    "user": "trader",
+    "connector": "mysql"
+  }
+}

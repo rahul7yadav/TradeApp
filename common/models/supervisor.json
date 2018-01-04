@@ -1,0 +1,33 @@
+{
+  "name": "Supervisor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "any",
+      "required": true
+    },
+    "password": {
+      "type": "any",
+      "required": true
+    },
+    "phone": {
+      "type": "any"
+    },
+    "type": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
