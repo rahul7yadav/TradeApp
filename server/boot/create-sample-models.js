@@ -1,5 +1,5 @@
 module.exports = function(app) {
-  app.dataSources.mysqlDs.automigrate('Supervisor', function(err) {
+  app.dataSources.mysqlDs.automigrate(['Supervisor','AccessToken','ACL','RoleMapping','Role'], function(err) {
     if (err) throw err;
 
     app.models.Supervisor.create([{

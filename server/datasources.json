@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mysqlDs": {
-    "host": "demo.strongloop.com",
+    "host": "127.0.0.1",
     "port": 3306,
     "url": "",
     "database": "TradeDB",
-    "password": "FR!@#000",
+    "password": "",
     "name": "mysqlDs",
-    "user": "trader",
+    "user": "root",
     "connector": "mysql"
   }
 }
